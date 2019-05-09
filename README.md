@@ -13,14 +13,14 @@ Rules are simple. (1) Read the question. (2) Think about it for about 15 minutes
 ## About author
 I am a 2018 master graduate from the University of Melbourne, Australia, studying in Information Systems. Before that I was a commerce student learning economics and finance. I learned most of these CS-related knowledges during secondary and high school. Besides, I am the lead developer in the [IT Department of Chinese Student and Scholoar Association, Unimelb.](https://cssaunimelb.com/department/information/)
 
-## Table of Contents
+## Table of Contents (Updating in progress)
 - General Purpose Algorithm
   
   This part covers most of the commonly used coding topics
   
   - Sorting
   - Depth First Search
-  - KMP Algorithm
+  - [KMP Algorithm](general-purpose-algorithm/KMP-algorithm)
    
 - Funny topic
 
@@ -33,7 +33,7 @@ I am a 2018 master graduate from the University of Melbourne, Australia, studyin
     - Find the 
 
 
-## Find bugs ?
+## Find bugs?
 If you find any issue, such as bugs in example code, uncovered edge cases, typos, ambiguous description, English grammar mistakes...
 
 Please report it at this repo's issue page or send me an email -> joshlubox@gmail.com

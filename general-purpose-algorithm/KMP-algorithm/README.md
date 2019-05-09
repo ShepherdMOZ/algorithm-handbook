@@ -1,0 +1,2 @@
+## Question
+Given a long string (length = n), e.g "abcdababdcbdcabdcdbabcddab", could you find a way to determine whether a substring (length = m), e.g. "abdcd", is a matched substring in this long string? Because in the real world n could be a very large number, can you do this in O(n+m) ? 
