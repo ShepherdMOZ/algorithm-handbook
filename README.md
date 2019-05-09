@@ -29,7 +29,7 @@ I am a 2018 master graduate from the University of Melbourne, Australia, studyin
   Sources:  https://dailycodingproblem.com/
 
   - Google:
-    - Find the distinctive digit
+    - [Find the distinctive digit](google/find-distinctive-digit)
     - Find the 
 
 
