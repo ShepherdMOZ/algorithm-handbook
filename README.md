@@ -1,5 +1,5 @@
 # Moz's Algorithm Handbook 
-Together, land on dream jobs in the world of software enginerring!
+Together, land on dream jobs in the world of software engineering!
 
 ## Who is this handbook for ?
 This handbook is made for beginners who just start learning computer programming and algorithms. Also, this handbook is intended to become a high-quality resource for newbies who are preparing for coding interviews, just like me.
