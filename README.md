@@ -31,6 +31,7 @@ I am a 2018 master graduate from the University of Melbourne, Australia, studyin
   - Google:
     - [Find the distinctive number](google/find-distinctive-digit)
     - [Fast exponent calculator](google/quick-int-exp-calc) 
+    - [Find inversions](google/find-inversions)
 
 
 ## Find bugs?
@@ -46,3 +47,11 @@ Thanks for any valuable suggestions in advance.
 Send me an email -> joshlubox@gmail.com
 
 Let's work together and make this handbook better
+
+
+## License
+
+The included codes are all licensed under GNU GPLv3
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />The all related documents are licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
