@@ -32,6 +32,7 @@ I am a 2018 master graduate from the University of Melbourne, Australia, studyin
     - [Find the distinctive number](google/find-distinctive-digit)
     - [Fast exponent calculator](google/quick-int-exp-calc) 
     - [Find inversions](google/find-inversions)
+    - [Add up to K](google/add-up-to-K)
 
 
 ## Find bugs?
