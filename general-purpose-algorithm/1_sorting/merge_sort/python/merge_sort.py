@@ -80,9 +80,6 @@ def do_merge(array:List[int], aux_array:List[int], left_limit:int, mid_idx:int, 
 
     
 
-
-
-
 if __name__ == "__main__":
     array: List[int] = [5,6,1,3,2,4,7]
     #print(merge_sort_sd(array))

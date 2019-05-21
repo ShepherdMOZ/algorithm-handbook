@@ -10,12 +10,12 @@ def sift_down(current_idx:int, end:int, heap:List[int]) -> None:
     left_child_idx:int = current_idx * 2 + 1
     while left_child_idx <= end:
         right_child_idx:int = current_idx * 2 + 2 if current_idx * 2 + 2 <= end else -1
-        if right_child_idx != -1 and heap[right_child_idx] < heap[left_child_idx]:
+        if right_child_idx != -1 and heap[right_child_idx] > heap[left_child_idx]:
             swap_idx:int = right_child_idx
         else:
             swap_idx = left_child_idx
 
-        if heap[current_idx] > heap[swap_idx]:
+        if heap[current_idx] < heap[swap_idx]:
             heap[swap_idx], heap[current_idx] = heap[current_idx], heap[swap_idx]
             current_idx = swap_idx
             left_child_idx = current_idx * 2 + 1
@@ -31,11 +31,10 @@ def sift_up(current_idx:int, heap:List[int]) -> None:
 
 def heap_sort(array:List[int]) -> List[int]:
     build_heap(array)
-    print(array)
-    for startI in range(1,len(array)):
-        array[-1], array[startI] = array[startI], array[-1]
-        #sift_down(startI, len(array)-1, array)
-        sift_up(startI,array)
+    for endI in reversed(range(1,len(array))):
+        array[0], array[endI] = array[endI], array[0]
+        sift_down(0, endI-1, array)
+
     return array 
 
 if __name__ == "__main__":
