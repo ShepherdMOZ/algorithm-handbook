@@ -57,7 +57,17 @@ class SingleLinkedList():
         interval_start.next = interval_start.next.next
 
         return self
-        
+    
+    def reverse(self):
+        prev = None
+        current = self
+        while current is not None:
+            next_node = current.next
+            current.next = prev
+            prev = current
+            current = next_node
+        self = prev
+        return self
 
 
 
@@ -86,6 +96,10 @@ class TestCases(unittest.TestCase):
     def test_case_5(self):
         case = SingleLinkedList(0).add_nodes([1,2,3]).add_nodes([4,5])
         self.assertEqual(case.remove_kth(6).get_nodes_to_array(),[1,2,3,4,5])
+    
+    def test_case_6(self):
+        case = SingleLinkedList(0).add_nodes([1,2,3]).add_nodes([4,5])
+        self.assertEqual(case.reverse().get_nodes_to_array(),[5,4,3,2,1,0])
 
 
 if __name__ == "__main__":
